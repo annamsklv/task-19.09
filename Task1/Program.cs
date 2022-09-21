@@ -4,26 +4,6 @@
 // 782 -> 8
 // 918 -> 1
 
-// int GetNumber()
-// {
-//     Console.WriteLine("Введите трехзначное число");
-//     int number = Int32.Parse(Console.ReadLine());
-//     return number;
-// }
-
-
-// if( number > 99 && number < 1000 )
-//     {
-//         int number = GetNumber();
-//         int twoDigits = number / 10;
-//         int secondDigit = twoDigits % 10;
-//         Console.WriteLine(secondDigit);
-//     }
-//     else
-//     {
-//         Console.WriteLine("Ошибка! Число не трехзначное!");
-//     }
-
 
 int GetNumber()
 {
