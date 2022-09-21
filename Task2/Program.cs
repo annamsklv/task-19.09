@@ -24,7 +24,7 @@
 // {
 //     Console.WriteLine("третьей цифры нет");
 // }
-
+// --------------------------------------------------------------------------------------------------
 
 int GetNumber()
 {
@@ -39,7 +39,7 @@ if ( newNumber < 100 )
 {
     Console.WriteLine("третьей цифры нет");
 }
-else if ( newNumber > 100 && newNumber < 1000 )
+else if ( newNumber > 99 && newNumber < 1000 )
 {
     int thirdDigit = newNumber % 10;
     Console.WriteLine(thirdDigit);
@@ -69,3 +69,32 @@ else if ( newNumber > 99999 && newNumber < 1000000)
 // на которые делим для получения остатка и третьей цифры
 // и с количеством цифр в заданном числе
 // чтобы программа работала для любого числа
+
+
+
+// int GetNumber()
+// {
+//     Console.WriteLine("Введите число");
+//     int number = Int32.Parse(Console.ReadLine());
+//     return number;
+// }
+
+// int newNumber = GetNumber();
+
+// if ( newNumber < 100 )
+// {
+//     Console.WriteLine("третьей цифры нет");
+// }
+
+// string numberStr = Convert.ToString(number);
+// int numberLenght = numberStr.Length;
+
+
+
+// if ( numberLenght == 3 )
+// {
+//     int leftover = newNumber % 100;
+//     int thirdDigit = leftover % 10;
+//     Console.WriteLine(thirdDigit);
+// }
+
